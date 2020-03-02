@@ -1,6 +1,8 @@
 import React from 'react';
+import '../../Sass/Navigation.scss'
+
 const Navigation = () => {
-    return ( <div>
+    return ( <div className='Navigation'>
         <h2>Navigation</h2>
     </div> );
 }
